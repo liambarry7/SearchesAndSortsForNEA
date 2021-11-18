@@ -1,11 +1,11 @@
 package sorts;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 
 
 public class bubble {
     
-    public static void bubbleSort (ArrayList<Integer> number) {
+    public static void bubbleSort (LinkedList<Integer> number) {
         
         for (int i = 0; i < number.size(); i++) {
             for (int j = 0; j < number.size() - i - 1; j++) {
